@@ -93,7 +93,7 @@ function Home() {
 
                     </Box>
                 </div>
-                <div className="row" style={{height:'75vh'}}>
+                <div className="row" style={{height:'82vh'}}>
                     {allDocs?.length > 0 ? allDocs.map((item) => (
                         <div key={item.id} className="col-lg-4 mb-4">
                             <Card className='card' sx={{ maxWidth: 345,maxHeight:400}}>
